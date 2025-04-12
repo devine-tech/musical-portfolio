@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3C3B6E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B22234;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5" />
+  
+  <!-- Outdoor Festival Setting -->
+  <rect x="0" y="400" width="800" height="200" fill="#5d9e5f" />
+  <rect x="0" y="380" width="800" height="20" fill="#4a7c4c" />
+  
+  <!-- Sky with clouds -->
+  <rect x="0" y="0" width="800" height="380" fill="#87CEEB" />
+  <ellipse cx="100" cy="120" rx="60" ry="40" fill="white" opacity="0.8" />
+  <ellipse cx="130" cy="100" rx="70" ry="30" fill="white" opacity="0.9" />
+  <ellipse cx="600" cy="150" rx="80" ry="40" fill="white" opacity="0.8" />
+  <ellipse cx="650" cy="130" rx="70" ry="30" fill="white" opacity="0.9" />
+  
+  <!-- Festival Stage -->
+  <rect x="200" y="300" width="400" height="100" fill="#9B7653" />
+  <rect x="190" y="300" width="420" height="20" fill="#8B6543" />
+  
+  <!-- Festival Equipment -->
+  <rect x="230" y="250" width="50" height="50" fill="#333" />
+  <rect x="520" y="250" width="50" height="50" fill="#333" />
+  
+  <!-- Performer on stage -->
+  <path d="M400 200
+           C420 200, 435 215, 435 235
+           C435 255, 420 270, 400 270
+           C380 270, 365 255, 365 235
+           C365 215, 380 200, 400 200Z" 
+        fill="#333333" />
+  
+  <!-- Body -->
+  <path d="M380 270
+           L370 330
+           L430 330
+           L420 270Z"
+        fill="#333333" />
+  
+  <!-- Microphone -->
+  <rect x="397" y="240" width="6" height="60" fill="#666" />
+  <ellipse cx="400" cy="240" rx="10" ry="15" fill="#555" />
+  
+  <!-- Festival Audience Silhouettes -->
+  <path d="M0 380 
+           Q100 350, 200 380 
+           Q300 350, 400 380 
+           Q500 350, 600 380 
+           Q700 350, 800 380 
+           L800 400 L0 400 Z" 
+        fill="#333" opacity="0.7" />
+        
+  <!-- Festival Banner -->
+  <rect x="150" y="190" width="500" height="40" fill="url(#grad1)" opacity="0.8" />
+  
+  <!-- Text "Summer Festival" -->
+  <text x="400" y="520" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#333">SUMMER FESTIVAL</text>
+</svg>
