@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3C3B6E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B22234;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#222" />
+  
+  <!-- Dark Club Setting -->
+  <rect x="0" y="400" width="800" height="200" fill="#111" />
+  
+  <!-- Smoky Atmosphere -->
+  <rect x="0" y="0" width="800" height="400" opacity="0.2">
+    <animate attributeName="opacity" values="0.2;0.3;0.2" dur="5s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Stage Area -->
+  <rect x="250" y="300" width="300" height="100" fill="#333" />
+  <rect x="240" y="300" width="320" height="10" fill="#444" />
+  
+  <!-- Club Lights -->
+  <circle cx="150" cy="150" r="20" fill="#B22234" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="300" cy="100" r="15" fill="#3C3B6E" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="500" cy="120" r="25" fill="#B22234" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.2s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="650" cy="150" r="18" fill="#3C3B6E" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="1.8s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Light Beams -->
+  <polygon points="150,150 100,400 200,400" fill="#B22234" opacity="0.2" />
+  <polygon points="300,100 250,400 350,400" fill="#3C3B6E" opacity="0.2" />
+  <polygon points="500,120 450,400 550,400" fill="#B22234" opacity="0.2" />
+  <polygon points="650,150 600,400 700,400" fill="#3C3B6E" opacity="0.2" />
+  
+  <!-- Performer on stage -->
+  <path d="M400 220
+           C420 220, 435 235, 435 255
+           C435 275, 420 290, 400 290
+           C380 290, 365 275, 365 255
+           C365 235, 380 220, 400 220Z" 
+        fill="#ddd" />
+  
+  <!-- Body -->
+  <path d="M380 290
+           L370 350
+           L430 350
+           L420 290Z"
+        fill="#ddd" />
+  
+  <!-- Microphone -->
+  <rect x="397" y="255" width="6" height="60" fill="#aaa" />
+  <ellipse cx="400" cy="255" rx="10" ry="15" fill="#888" />
+  
+  <!-- Audience Silhouettes -->
+  <rect x="0" y="400" width="800" height="60" fill="#000" />
+  <circle cx="300" cy="430" r="15" fill="#222" />
+  <circle cx="340" cy="425" r="15" fill="#222" />
+  <circle cx="380" cy="430" r="15" fill="#222" />
+  <circle cx="420" cy="425" r="15" fill="#222" />
+  <circle cx="460" cy="430" r="15" fill="#222" />
+  <circle cx="500" cy="425" r="15" fill="#222" />
+  
+  <!-- Text "Nightclub Performance" -->
+  <text x="400" y="520" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#fff">NIGHTCLUB PERFORMANCE</text>
+</svg>
